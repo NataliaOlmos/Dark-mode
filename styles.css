@@ -1,0 +1,32 @@
+body{
+    --color-bg: #dddddd;
+    --color-text: #730233;
+}
+
+body.dark-theme{
+    --color-bg: #585858;
+    --color-text: #023373;
+}
+
+@media (prefers-color-scheme: dark) {
+    body{
+        --color-bg: #585858;
+        --color-text: #023373;
+    }
+    body.light-theme{
+        --color-bg: #dddddd;
+        --color-text: #730233;
+    }
+    
+  }
+  
+
+
+
+body{
+    background-color: var(--color-bg);
+}
+
+h1{
+    color: var(--color-text);
+}
