@@ -1,3 +1,3 @@
 # Dark-mode
 
-Dark mode - Local Storage basic app
+Dark mode and clock - Local Storage basic app
